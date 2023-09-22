@@ -1,0 +1,30 @@
+body {
+    font-family: 'san-serif', 'Times New Roman';
+    background-color:rgb(181, 250, 227);
+    text-align: center;
+
+}
+
+nav {
+    background-color: rgb(175, 151, 90);
+    padding: 10px;
+}
+
+a {
+    color:rgb(88, 43, 159);
+    margin:40px;
+}
+
+h1 {
+    color:steelblue;
+}
+
+img {
+    width: 800px;
+    border: 4px solid steelblue;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+}
