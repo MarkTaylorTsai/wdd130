@@ -1,0 +1,17 @@
+.pic1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    gap: 0px;
+}
+
+.image {
+    width: 250px;
+    height:auto;
+    border-radius: 50%;
+    border: 15px solid #000;
+}
+
+main {
+    background-color: gray;
+}

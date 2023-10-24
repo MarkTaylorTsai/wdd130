@@ -1,3 +1,26 @@
+body {
+    font-family: Bitter, Arial, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: rgb(58, 48, 29);
+}
+body {
+    background-color: rgb(128, 183, 165);
+
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-family: Hind, sans-serif, Arial;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 #content {
     max-width: 1600px;
     text-align: center;
@@ -15,6 +38,10 @@
     height: 725px;
 }
 
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: black;
 }
@@ -22,6 +49,7 @@ h4 {
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -41,6 +69,10 @@ main {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .home-title {
     color: black;
 }
@@ -49,14 +81,10 @@ section {
     text-align: center;
 }
 
-body {
-    background-color: rgb(128, 183, 165);
-    color: rgb(58, 48, 29);
-}
-
 header {
-    background-color: rgba(20,30,13, .7);
+    background-color: rgba(224, 240, 212, 0.7);
     color: rgb(223, 218, 209);
+    padding: 35px;
 }
 
 nav a:hover {
@@ -68,6 +96,10 @@ nav a:hover {
     background-color: blanchedalmond;
     color: rgb(39, 34, 26);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -83,11 +115,19 @@ nav a:hover {
 .msg {
     background-color: blanchedalmond;
     color: rgb(21, 19, 16);
+    padding: 35px;
 }
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+  }
 
 footer {
     background-color: rgb(142, 104, 177);
     color: rgb(8, 7, 7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -107,6 +147,16 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+footer .social img {
+    padding-top: 15px;
+  }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    border: 10px solid #d9c2a3;
 }
