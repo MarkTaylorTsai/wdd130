@@ -247,7 +247,7 @@ footer .social img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 
-    transition: transform 0.5s, opacity 0.5;
+    transition: transform 0.5s, opacity 0.5s;
 
 }
 
