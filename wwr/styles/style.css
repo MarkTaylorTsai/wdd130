@@ -68,7 +68,7 @@ body {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: aliceblue;
 }
 
